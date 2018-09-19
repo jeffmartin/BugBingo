@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./dist/jquery.slotmachine.css" type="text/css" media="screen"></link>
+    <script type="text/javascript" src="./lib/jquery.min.js"></script>
+    <script type="text/javascript" src="./dist/slotmachine.js"></script>
+    <script type="text/javascript" src="./dist/jquery.slotmachine.js"></script>
+    <style>
+        .machine img {
+            height: 180px;
+            width: 180px;
+        }
+        .container{
+            width: 826px;
+            margin: 10px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+    <div class="machine" id="machine1" style="height:185px; width: 180px; border:5px solid blue; padding-left: 5%; padding-right: 5%; border-radius: 20px; display:inline-block; visibility: hidden">
+        <div>
+            <img src="assets/birdo.png" />
+        </div>
+        <div>
+            <img src="assets/blueshell.png" />
+        </div>
+        <div>
+            <img src="assets/bombomb.png" />
+        </div>
+        <div>
+            <img src="assets/bowser.png" />
+        </div>
+        <div>
+            <img src="assets/box.png" />
+        </div>
+        <div>
+            <img src="assets/bulletbill.png" />
+        </div>
+        <div>
+            <img src="assets/egg.png" />
+        </div>
+        <div>
+            <img src="assets/fireflower.png" />
+        </div>
+        <div>
+            <img src="assets/goldmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/goomba.png" />
+        </div>
+        <div>
+            <img src="assets/greenShell.png" />
+        </div>
+        <div>
+            <img src="assets/luigi.png" />
+        </div>
+        <div>
+            <img src="assets/mario.png" />
+        </div>
+        <div>
+            <img src="assets/peach.png" />
+        </div>
+        <div>
+            <img src="assets/redmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/redshell.png" />
+        </div>
+        <div>
+            <img src="assets/shyguy.png" />
+        </div>
+        <div>
+            <img src="assets/squidguy.png" />
+        </div>
+        <div>
+            <img src="assets/star.png" />
+        </div>
+        <div>
+            <img src="assets/toad.png" />
+        </div>
+        <div>
+            <img src="assets/yoshi.png" />
+        </div>
+    </div>
+    <div class="machine" id="machine2" style="height:185px; width: 180px; border:5px solid blue; padding-left: 5%; padding-right: 5%; border-radius: 20px; display: inline-block;">
+        <div>
+            <img src="assets/birdo.png" />
+        </div>
+        <div>
+            <img src="assets/blueshell.png" />
+        </div>
+        <div>
+            <img src="assets/bombomb.png" />
+        </div>
+        <div>
+            <img src="assets/bowser.png" />
+        </div>
+        <div>
+            <img src="assets/box.png" />
+        </div>
+        <div>
+            <img src="assets/bulletbill.png" />
+        </div>
+        <div>
+            <img src="assets/egg.png" />
+        </div>
+        <div>
+            <img src="assets/fireflower.png" />
+        </div>
+        <div>
+            <img src="assets/goldmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/goomba.png" />
+        </div>
+        <div>
+            <img src="assets/greenShell.png" />
+        </div>
+        <div>
+            <img src="assets/luigi.png" />
+        </div>
+        <div>
+            <img src="assets/mario.png" />
+        </div>
+        <div>
+            <img src="assets/peach.png" />
+        </div>
+        <div>
+            <img src="assets/redmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/redshell.png" />
+        </div>
+        <div>
+            <img src="assets/shyguy.png" />
+        </div>
+        <div>
+            <img src="assets/squidguy.png" />
+        </div>
+        <div>
+            <img src="assets/star.png" />
+        </div>
+        <div>
+            <img src="assets/toad.png" />
+        </div>
+        <div>
+            <img src="assets/yoshi.png" />
+        </div>
+    </div>
+    <div class="machine" id="machine3" style="height:185px; width: 180px; border:5px solid blue; padding-left: 5%; padding-right: 5%; border-radius: 20px; display: inline-block; visibility: hidden">
+        <div>
+            <img src="assets/birdo.png" />
+        </div>
+        <div>
+            <img src="assets/blueshell.png" />
+        </div>
+        <div>
+            <img src="assets/bombomb.png" />
+        </div>
+        <div>
+            <img src="assets/bowser.png" />
+        </div>
+        <div>
+            <img src="assets/box.png" />
+        </div>
+        <div>
+            <img src="assets/bulletbill.png" />
+        </div>
+        <div>
+            <img src="assets/egg.png" />
+        </div>
+        <div>
+            <img src="assets/fireflower.png" />
+        </div>
+        <div>
+            <img src="assets/goldmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/goomba.png" />
+        </div>
+        <div>
+            <img src="assets/greenShell.png" />
+        </div>
+        <div>
+            <img src="assets/luigi.png" />
+        </div>
+        <div>
+            <img src="assets/mario.png" />
+        </div>
+        <div>
+            <img src="assets/peach.png" />
+        </div>
+        <div>
+            <img src="assets/redmushroom.png" />
+        </div>
+        <div>
+            <img src="assets/redshell.png" />
+        </div>
+        <div>
+            <img src="assets/shyguy.png" />
+        </div>
+        <div>
+            <img src="assets/squidguy.png" />
+        </div>
+        <div>
+            <img src="assets/star.png" />
+        </div>
+        <div>
+            <img src="assets/toad.png" />
+        </div>
+        <div>
+            <img src="assets/yoshi.png" />
+        </div>
+    </div>
+</div>
+
+    <button id="btn" style="margin:0 auto; height:500px; width:100%; background: blueviolet; color:white; font-size:100px; border-radius: 30px">Shuffle</button>
+    <a href="#" id="suddenDeath">Sudden Death?</a>
+    <script>
+        $(document).ready(function () {
+
+            const el1 = document.querySelector('#machine1');
+            const machine1 = new SlotMachine(el1, {
+                active: 1,
+                delay: 500
+            });
+            const el2 = document.querySelector('#machine2');
+            const machine2 = new SlotMachine(el2, {
+                active: 1,
+                delay: 500
+            });
+            const el3 = document.querySelector('#machine3');
+            const machine3 = new SlotMachine(el3, {
+                active: 1,
+                delay: 500
+            });
+            const results = document.querySelector('#results');
+            function onComplete(active) {
+                let me=this;
+                var rand = Math.floor(Math.random() * 10) + 1
+                switch (rand) {
+                    case 0:
+                        setTimeout(function () {
+                            me.prev();
+                            btn.disabled = false;
+                        }, 200)
+                        break;
+                    case 2:
+                        setTimeout(function () {
+                            me.next();
+                            btn.disabled = false;
+                        }, 200)
+                        break;
+                    default:
+                        btn.disabled = false;
+                }
+                console.log(rand);
+            }
+            const btn = document.querySelector('#btn');
+            let suddenDeath = false;
+            btn.addEventListener('click', () => {
+                if(!suddenDeath){
+                machine2.shuffle(5, onComplete);}
+                else{
+                    machine1.shuffle(5, onComplete);
+                    setTimeout(() => machine2.shuffle(5, onComplete), 500);
+                    setTimeout(() => machine3.shuffle(5, onComplete), 1000);
+                }
+                
+                btn.disabled = true;
+            });
+            const anchor = document.querySelector('#suddenDeath');
+            anchor.addEventListener('click', (event) => {
+                event.preventDefault();
+                suddenDeath = !suddenDeath;
+                if(suddenDeath){
+                $(el1).css('visibility', 'visible');
+                $(el3).css('visibility', 'visible');
+                }
+                else{
+                $(el1).css('visibility', 'hidden');
+                $(el3).css('visibility', 'hidden');
+                }
+            })
+        });
+
+    </script>
+</body>
+
+</html>
